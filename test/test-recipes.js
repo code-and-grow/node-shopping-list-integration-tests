@@ -44,7 +44,7 @@ describe('Recipes', function(){
   });
   // test strategy:
   //   1. make POST request to `/recipes` and make new recipe item with sent data
-  //   2. inspect response object and prove it has right keys in response object.
+  //   2. inspect response object and prove it has right keys and values in response object.
   it('should add item to recipes with POST', function() {
     const newRecipe = {
       name: 'Pasta carbonara', 
