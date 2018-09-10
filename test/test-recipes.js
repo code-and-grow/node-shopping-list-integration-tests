@@ -102,7 +102,7 @@ describe('Recipes', function(){
   // test strategy:
   //   1. make DELETE request to delete item from `/recipes`
   //   2. inspect response status and see if it returns 204
-  it('should update item in recipes list with PUT', function() {
+  it('should delete item in recipes list with DELETE', function() {
     return chai
       .request(app)
       .get('/recipes')
